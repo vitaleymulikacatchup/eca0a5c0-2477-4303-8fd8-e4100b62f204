@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import { Crown, Home, MessageCircle, Star } from "lucide-react";
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="icon-arrow"
